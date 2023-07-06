@@ -81,6 +81,11 @@
 {
     position: relative;
     margin-top: 5px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .xzoom-thumbs a
 {
@@ -93,6 +98,18 @@
     height: 80px;
     border: 2px solid var(--semi-dark);
     border-radius: 5px;
+    transition: .5s;
+}
+.xzoom-thumbs img:last-child {
+    margin-right: 0; 
+}
+.xzoom-thumbs img:hover
+{
+    border: 2px solid var(--primary-color);
+}
+.xzoom-gallery.active
+{
+    border: 2px solid var(--primary-color);
 }
 .xzoom-preview
 {
