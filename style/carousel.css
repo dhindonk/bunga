@@ -1,0 +1,27 @@
+.bannerBodyCarousel
+{
+    margin-top: 70px;
+}
+.buttonBack,
+.buttonNext,
+.buttonBack:focus,
+.buttonNext:focus
+{
+    opacity: 0;
+    background: #3333331d;
+    transition: .5s;
+}
+.buttonBack:hover,
+.buttonNext:hover
+{
+    opacity: 1;
+}
+.carousel-indicators
+{
+    transition: .5s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+.carousel-indicators .active
+{
+    width: 50px;
+    height: 6px;
+}
